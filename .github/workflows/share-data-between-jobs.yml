@@ -22,3 +22,7 @@ jobs:
       - shell: bash
         run: |
           cat output.log
+      - name: Delete artifact after read the log file
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: my-artifact
