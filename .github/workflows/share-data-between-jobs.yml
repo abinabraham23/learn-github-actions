@@ -25,4 +25,4 @@ jobs:
       - name: Delete artifact after read the log file
         uses: geekyeggo/delete-artifact@v1
         with:
-          name: my-artifact
+          name: output-log-file
